@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            delegate="ru.innopolis.lips.memvit.ConfigurationDelegate"
+            id="CMemvit.launchConfigurationType1"
+            modes="debug"
+            name="CMemvit Configuration"
+            public="true"
+            sourceLocatorId="org.eclipse.cdt.debug.core.sourceLocator"
+            sourcePathComputerId="org.eclipse.cdt.debug.core.sourcePathComputer">
+      </launchConfigurationType>
+   </extension>
+
+</plugin>
