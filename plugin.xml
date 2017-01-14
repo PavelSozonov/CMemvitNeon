@@ -13,5 +13,13 @@
             sourcePathComputerId="org.eclipse.cdt.debug.core.sourcePathComputer">
       </launchConfigurationType>
    </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="ru.innopolis.lips.memvit.CMemvitLaunchConfigurationTabGroup"
+            id="CMemvit.launchConfigurationTabGroup1"
+            type="CMemvit.launchConfigurationType1">
+      </launchConfigurationTabGroup>
+   </extension>
 
 </plugin>

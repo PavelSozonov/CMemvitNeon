@@ -8,6 +8,9 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.debug.core,
  org.eclipse.cdt.launch,
- org.eclipse.cdt.dsf.gdb
+ org.eclipse.cdt.dsf.gdb,
+ org.eclipse.debug.ui,
+ org.eclipse.cdt.core,
+ org.eclipse.cdt.debug.core
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
